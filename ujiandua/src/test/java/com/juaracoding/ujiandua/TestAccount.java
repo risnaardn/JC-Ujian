@@ -73,7 +73,7 @@ public class TestAccount {
     public void Testdisplay() {
         int acc_no = 1;
         String name = "Nana";
-        double amout = 8000.0;
+        double amount = 8000.0;
         System.out.println(acc_no + " " + name + " " + amount);
     }
 
