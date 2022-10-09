@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="text" value="Insert"></parameter>
+    <test verbose="2" preserve-order="true" name="C:/juaracoding/java/RisnaPutriR/ujiandua/src/test/java/com/juaracoding/ujiandua/TestAccount.java">
+        <classes>
+            <class name="com.juaracoding.ujiandua.TestAccount">
+                <methods><include name="TestInsert"/><include name="TestDeposit"/>
+                    <include name="TestWithDrawInsufficientBalance"/>
+                    <include name="TestWithDrawn"/>
+                    <include name="TestcheckBalance"/>
+                    <include name="Testdisplay"/></methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>

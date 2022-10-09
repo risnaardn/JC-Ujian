@@ -11,7 +11,8 @@ public class TestAccount {
 
 
     @Test
-    public void TestInsert() {
+    @Parameters("text")
+    public void TestInsert(String text) {
         Account account = new Account();
         int acc_no = 1;
         String name = "Nana";
@@ -19,6 +20,7 @@ public class TestAccount {
         String actual = Account.insert(name);
 
         String expected = "Nana";
+        System.out.println(text);
         assertEquals(actual, "Nana");
 
 
